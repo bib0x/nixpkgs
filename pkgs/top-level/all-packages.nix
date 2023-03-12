@@ -4875,6 +4875,8 @@ with pkgs;
 
   glpaper = callPackage ../development/tools/glpaper { };
 
+  glpiscan = python3Packages.callPackage ../tools/security/glpiscan { };
+
   gllvm = callPackage ../development/tools/gllvm { };
 
   glide = callPackage ../development/tools/glide { };

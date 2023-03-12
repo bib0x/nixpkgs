@@ -7935,6 +7935,8 @@ self: super: with self; {
 
   pycfmodel = callPackage ../development/python-modules/pycfmodel { };
 
+  pychalk = callPackage ../development/python-modules/pychalk { };
+
   pychannels = callPackage ../development/python-modules/pychannels { };
 
   pychart = callPackage ../development/python-modules/pychart { };
